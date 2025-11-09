@@ -1,0 +1,24 @@
+/* --- Fix white space and layout consistency --- */
+html, body {
+  
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* Makes every page fill the screen neatly */
+.loreal-container,
+.portfolio-container,
+.contact-container {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  
+}
+
+/* Optional: gives a smooth feel when scrolling */
+* {
+  scroll-behavior: smooth;
+}

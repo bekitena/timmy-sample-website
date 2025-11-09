@@ -1,0 +1,47 @@
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background-color: #fff0f5;
+  background: linear-gradient(to bottom, #fff, #ffe6eb);
+  min-height: 100vh;
+}
+
+.intro-text {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.intro-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #d63384;
+  margin-bottom: 20px;
+}
+
+.intro-text p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.shop-btn {
+  background-color: #d63384;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-btn:hover {
+  background-color: #c2185b;
+}
+
+.intro-image img {
+  width: 500px;
+  border-radius: 20px;
+}

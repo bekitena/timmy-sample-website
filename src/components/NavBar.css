@@ -1,0 +1,49 @@
+
+
+a{
+  text-decoration: none;
+}
+
+.nav-container {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; 
+  
+  z-index: 1000; 
+  height: 30px;
+   
+}
+
+
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  margin-right: 20px;
+  
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+    color: pink;
+
+}
+
+.nav-links a:hover {
+  color: rgba(139, 0, 67, 0.815);
+}
+
+
+
+.logo-img {
+  width: 140px; 
+  height: auto;
+}
