@@ -16,7 +16,6 @@ function App() {
         <Route path="/" element={<Introduction />} />
         <Route path="/product" element={<LorealPage />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/carcard" element={<CarCard />} />
       </Routes>
     </>
   );
