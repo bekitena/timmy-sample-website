@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import NavBar from './Components/NavBar.jsx';
+import NavBar from './components/NavBar.jsx';
 import Introduction from './Components/Introduction.jsx';
 import Contact from './components/Contact.jsx';
 import LorealPage from './components/LorealPage.jsx';

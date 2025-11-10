@@ -1,14 +1,15 @@
 import React from 'react';
 import './Portfolio.css';
-import proj1 from '../../public/assets/project1.jpg';
-import proj2 from '../../public/assets/project2.jpg';
+import proj1 from '../assets/project1.jpg';
+import proj2 from '../assets/project2.jpg';
+import img3 from '../assets/wikipedia-logo.png';
 
 let nextId = 1;
 
 const portfolioProjects = [
   { id: nextId++, name: "Luxury Branding Website", description: "A full website redesign for a high-end cosmetics brand.", image: proj1, link: "https://www.loreal.com/en/beauty-science-and-technology/beauty-research-and-innovation/" },
   { id: nextId++, name: "E-commerce Product Page", description: "Interactive product showcase with image gallery and animations.", image: proj2, link: "https://craft.co/loreal/locations" },
-  { id: nextId++, name: "Portfolio Landing Page", description: "A clean and aesthetic landing page to display creative projects.", image: "assets/wikipedia-logo.png", link: "https://en.wikipedia.org/wiki/L%27Or%C3%A9al" }
+  { id: nextId++, name: "Portfolio Landing Page", description: "A clean and aesthetic landing page to display creative projects.", image: img3, link: "https://en.wikipedia.org/wiki/L%27Or%C3%A9al" }
 ];
 
 const Portfolio = () => {
