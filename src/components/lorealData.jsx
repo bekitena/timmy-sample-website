@@ -1,6 +1,6 @@
-import laser from '../assets/laser.jpg';
-import foundation from '../assets/foundation.jpg';
-import mascara from '../assets/mascara.jpg';
+import laser from '../assets/laser.png';
+import foundation from '../assets/foundation.png';
+import mascara from '../assets/mascara.png';
 
 const lorealProducts = [
   { id: 1, name: "L'Oréal Paris Revitalift", price: "$30", image: laser, link: "https://www.lorealparisusa.com/skin-care/facial-moisturizers/revitalift-triple-power-moisturizer-spf-30" },

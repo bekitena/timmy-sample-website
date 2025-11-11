@@ -1,7 +1,7 @@
 import React from 'react'
 import './Intro.css'
 import { useNavigate } from 'react-router-dom';
-import loreal from '../assets/loreal.jpg'
+import loreal from '../assets/loreal.png'
 
 const Introduction = () => {
 

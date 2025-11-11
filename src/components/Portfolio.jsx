@@ -1,7 +1,7 @@
 import React from 'react';
 import './Portfolio.css';
-import proj1 from '../assets/project1.jpg';
-import proj2 from '../assets/project2.jpg';
+import proj1 from '../assets/project1.png';
+import proj2 from '../assets/project2.png';
 import img3 from '../assets/wikipedia-logo.png';
 
 let nextId = 1;

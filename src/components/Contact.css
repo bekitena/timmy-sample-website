@@ -94,7 +94,7 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Optional: small responsive tweak */
+
 @media (max-width: 768px) {
   .contact-content {
     flex-direction: column;

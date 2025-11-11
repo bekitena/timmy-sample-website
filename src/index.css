@@ -18,7 +18,7 @@ html, body {
   
 }
 
-/* Optional: gives a smooth feel when scrolling */
+
 * {
   scroll-behavior: smooth;
 }
