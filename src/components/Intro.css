@@ -27,14 +27,29 @@
 }
 
 .shop-btn {
-  background-color: #d63384;
-  color: white;
   padding: 12px 24px;
-  font-size: 16px;
+  font-size: 1.1rem;
+  background-color: #d63384;
   border: none;
-  border-radius: 25px;
+  border-radius: 50px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: transform 0.2s ease;
+  animation: bounce-horizontal 2s infinite;
+}
+
+@keyframes bounce-horizontal {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(6px);
+  }
+  50% {
+    transform: translateX(-6px);
+  }
+  75% {
+    transform: translateX(3px);
+  }
 }
 
 .shop-btn:hover {
